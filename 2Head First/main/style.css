@@ -1,0 +1,87 @@
+body {
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6em; /* межстрочный интервал , то есть в 1.6 раз больше высоты шрифта */
+}
+
+h1 , h2 
+{
+    color: #007e7e; /* цвет первого и второго абзаца */
+}
+
+h1 {
+    font-size: 150%; /* задаем размер от бади */
+}
+
+h2 {
+    font-size: 130%; /* задаем размер от бади */
+}
+#garantiya {
+    line-height: 1.9em; /* межстрочный интервал , то есть в 1.9 раз больше высоты шрифта */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333333; /* колор текста в блоке */
+    font-style: italic; /* небольшой наклон текста */
+    border-color: white;  /* цвет границы - белый */
+    border-width: 1px; /* ширина границы */
+    border-style: dashed; /* стиль рамки - пунктир */
+    background-color: #a7cece; /* цвет блока */
+    padding: 25px; /* отступ со всех сторон */
+    padding-left: 80px; /* задаем отступ с левой стороны */
+    margin: 30px; /* добавляем поля со всех сторон */
+    margin-right: 600px; /* увеличиваем размер правого поля чтобы уменшить сам блок */
+    background-image: url(/images/background.gif); /* добавляем бэк изображения */
+    background-repeat: no-repeat; /* делаем изображение не повтор */
+    background-position: top left; /* устанавливаем позицию для изображения */
+}
+#elixir { /* берем элемент див и задаем ему стиль */
+    border-width: thin; /* задаем тонкую рамку */
+    border-style: solid; /* рамка сплошная */
+    border-color: #007e7e; /* ее цвет */
+    width: 200px; /* задаем ширину области */
+
+    padding-right: 20px; /* задаем отступ с правой стороны */
+    padding-bottom: 20px; /* задаем отступ снизу */
+    padding-left: 20px; /* задаем отступ с левой стороны */
+
+    margin-left: 20px; /* двигаем блок слегка влево от края */
+    text-align: center; /* выравниваем все по ценру */
+    background-image: url(/images/cocktail.gif); /* делаем фоновое изобр */
+    background-repeat: repeat-x; /* повторяем его только в одну строку по горизонтали */
+}
+#elixir h2 {
+    color: black; /* задаем для отдельного селектора черный цвет заголовка */
+}
+#elixir h3 {
+    color: #e36e82; /* задаем для отдельного селектора черный цвет заголовка */
+}
+#elixir {
+    line-height: 1;
+}
+#kopirait {
+    font-size: 60%; /* задаем размер текста */
+    text-align: center; /* размещаем его по центру */
+    line-height: normal; /* межстроный интервал - нормальный чтобы браузер сам подстроил */
+    margin-top: 30px; /* делаем небольшой отрыв от основного сайта */
+}
+.cd {
+    font-style: italic; /* стиль курсив */
+}
+.artist {
+    font-weight: bold; /* делаем ширифт жирным */
+}
+#elixir a:link {
+    color: #007e7e; /* определем цвет для непосященных ссылок */
+}
+#elixir a:visited {
+    color: #333333; /* определем цвет для посященных ссылок */
+}
+#elixir a:hover {
+    background: #f88396; /* определем цвет когда на ссылку наводятся мышью */
+    color: #0d5353;
+}
+#wayto a:link {
+    color: #007e7e; /* определем цвет для непосященных ссылок */
+}
+#wayto a:visited {
+    color: #333333; /* определем цвет для посященных ссылок */
+}
