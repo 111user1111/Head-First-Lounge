@@ -47,6 +47,7 @@ h2 {
     text-align: center; /* выравниваем все по ценру */
     background-image: url(/images/cocktail.gif); /* делаем фоновое изобр */
     background-repeat: repeat-x; /* повторяем его только в одну строку по горизонтали */
+    float: right; /* перемещаем блок на правую сторону страницы*/
 }
 #elixir h2 {
     color: black; /* задаем для отдельного селектора черный цвет заголовка */
